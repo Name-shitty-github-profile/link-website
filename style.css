@@ -5,6 +5,7 @@ html, body {
   font-family: "Open Sans", sans-serif;
   letter-spacing: 1px;
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .profile-picture {
@@ -47,22 +48,4 @@ a {
 
 a:hover {
   background-color: #5b176e;
-}
-
-::-webkit-scrollbar {
-  width: 20px;
-  background-color: #790279;
-}
-
-::-webkit-scrollbar-track {
-  border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #dc6f81;
-  border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #5b176e;
 }
